@@ -14,7 +14,6 @@ public class AJ016_vetores {
         int outros_num[] = {0,1,2,3,4};
 
         float valores[] = new float[5];
-        char caracteres = new char[20];
         String nome[] = new String[4];
 
         String frutas[] = {"Manga", "Laranja", "Maça"};
