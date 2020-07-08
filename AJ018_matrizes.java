@@ -40,5 +40,9 @@ public class AJ018_matrizes {
 
         //Outros exemplo de declaração
         int nova_matriz[][] = { {1,2}, {4,5,6,7,8}, {9,10,11} };
+
+        System.out.println(nova_matriz);
+        System.out.println(num);
+        System.out.println(mais_num);
     }
 }

@@ -5,7 +5,7 @@ public class AJ016_vetores {
 
     public static void main(String[] args) {
         //Declarar e inicializar
-        int vetor[];
+        //int vetor[];
 
         //Declarando e especificando o tamanho do vetor
         int num[] = new int[5];
@@ -18,6 +18,11 @@ public class AJ016_vetores {
 
         String frutas[] = {"Manga", "Laranja", "Maça"};
 
+        System.out.println("Imprimindo vetores: " + outros_num);
+        System.out.println("Imprimindo:" + num);
+        System.out.println(valores);
+        System.out.println(nome);
+        System.out.println(frutas);
 
     }
 }
