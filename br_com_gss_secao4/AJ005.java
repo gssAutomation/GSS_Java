@@ -1,3 +1,4 @@
+package br_com_gss_secao4;
 /**
  * AJ005 - Operador ternário
  */

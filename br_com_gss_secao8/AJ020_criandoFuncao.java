@@ -1,3 +1,4 @@
+package br_com_gss_secao8;
 import java.util.Scanner;
 
 /**

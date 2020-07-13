@@ -1,3 +1,4 @@
+package br_com_gss_secao3;
 //Variaveis
 
 public class AJ001 {

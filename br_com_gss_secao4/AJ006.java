@@ -1,3 +1,4 @@
+package br_com_gss_secao4;
 public class AJ006 {
     public static void main(String[] args) {
         int num = 5;

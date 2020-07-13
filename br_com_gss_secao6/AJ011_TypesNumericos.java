@@ -1,3 +1,4 @@
+package br_com_gss_secao6;
 /**
  * AJ011_TypesNumericos
  * numéricos e reais

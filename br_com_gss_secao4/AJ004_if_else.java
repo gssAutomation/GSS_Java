@@ -1,3 +1,5 @@
+package br_com_gss_secao4;
+
 public class AJ004_if_else {
 
     public static void main(String[] args) {

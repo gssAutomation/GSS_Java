@@ -1,3 +1,4 @@
+package br_com_gss_secao9;
 /*
 //Aula de classes
 
@@ -15,10 +16,22 @@
 - Podemos entender atributos como variáveis da classe;
 - Uma outra forma de nomenclatura para os atributos são estados;
 - Atributos são nomeados em letras minusculas, sem espaço, sem caracteres especiais, sem acentuação;
+
+//Métodos
+- Podemos entender os métodos como a ação realizada por um objeto da classe;
+- Poidemos entender também que os métodos são comportamentos dos objetos da classe;
+- Mesmos requisitos de uma função:
+    - Função deve ter: tipo de retorno; Nome; Parâmetros(opcional); Retorno;
 */
 
-public class Pessoa {
-    String nome, email;
-    int ano_nascimento;
+public class Produto {
+    String nome;
+    float preco, desconto;
+
+    //Método para aumentar o preço do projeto em 10
+    void aumentar_preco(float valor){
+        this.preco = this.preco + valor;
+    }
+
     
 }

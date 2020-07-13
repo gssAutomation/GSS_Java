@@ -1,14 +1,16 @@
+package br_com_gss_secao5;
+
 import java.util.Scanner;
 
-//do While
-public class AJ008_do_while {
+//While
+public class AJ007_While {
     public static void main(String[] args) {
         int idade = 1;
         String nome;
 
         //Recebe dados do usuário via teclado
         Scanner teclado = new Scanner(System.in);
-        do {
+        while (idade > 0) {
             System.out.println("Informe seu nome: ");
             nome = teclado.nextLine();
 
@@ -17,9 +19,9 @@ public class AJ008_do_while {
             idade = Integer.parseInt(teclado.nextLine());
 
             System.out.println(nome + " tem " + idade + " anos ");
-            
-        }while (idade > 0);
-
+        }
+        
         teclado.close();
+
     }
 }
