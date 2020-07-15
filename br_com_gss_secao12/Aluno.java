@@ -1,32 +1,26 @@
 package br_com_gss_secao12;
 
-public class Aluno {
-    private String nome;
-    private int ano_nascimento; 
+/**
+ * AJ028_heranca
+ * 
+ * Benefícios da Herança:
+ * - Evita a repetição de código;
+ * - Facilita a manutenção do programa;
+ * 
+ * Quanddo uma classe herda de outra classe ela ganha:
+ * - Todos os atributos e métodos da classe herdada;
+ */
+
+public class Aluno extends Pessoa{
+    
     private String ra;
 
     public Aluno (String nome, int ano_nascimento, String ra) {
-        this.nome = nome;
-        this.ano_nascimento = ano_nascimento;
+        super(nome, ano_nascimento);
         this.ra = ra;
     }
 
-    public String getNome() {
-        return this.nome;
-    }
-
-    public void setNome(String nome){
-        this.nome = nome;
-    }
-
-    public int getAnoNascimento(int ano_nascimento){
-        return this.ano_nascimento;
-    }
-
-    public void setAnoNascimento(int ano_nascimento) {
-        this.ano_nascimento = ano_nascimento;
-    }
-
+    
     public String getRa(){
         return this.ra;
     }
@@ -35,4 +29,7 @@ public class Aluno {
         this.ra = ra;
     }
     
+    public String toString(){
+        return super.toString() + "\nR.A" + this.ra;
+    }
 }
